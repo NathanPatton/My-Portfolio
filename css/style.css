@@ -1,0 +1,534 @@
+
+
+body {
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	overflow-y: active;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+#container {
+	width: 960px;
+	font-family: sans-serif;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 150px;
+}
+
+#logo {
+	float: left;
+	margin-left: 150px;
+	padding-top: 10px;
+}
+
+#nav {
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 1px 0px #2d3544;
+	position: fixed;
+	z-index: 999;		
+}
+
+nav.main-nav {
+	margin-right: 130px;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+nav.main-nav ul {
+	list-style-type: none;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+nav.main-nav ul li {
+	float: left;
+	padding: 30px 0px 0px 10px;
+}
+
+nav.main-nav ul li a {
+	text-decoration: none;
+	color: #3c4451;
+	padding: 7px 15px;							
+	
+}
+
+nav.main-nav ul li a:hover {
+	color: white;
+	background-color: #ff6528;
+	border-radius: 3px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;	
+}
+
+nav.main-nav ul li a.current {
+	color: white;
+	background-color: #ff6528;
+	border-radius: 3px;	
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+/************************************/
+/*! Home */
+/************************************/
+
+
+#feature {
+	width: 100%;
+	height: 650px;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	float: left;
+	-webkit-font-smoothing: antialiased;
+	cursor: default;		
+}
+
+.line1 {
+	color: white;
+	margin-top: 260px;
+	text-align: center;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+
+.line2 {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-top: -50px;
+}
+
+.ideas {
+	color: #ff6528;
+}
+
+#offer {
+	cursor: default;
+	width: 960px;
+	float: left;
+	margin-top: 50px;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #ff6528;	
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+.subtext {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #2d3544;
+	width: 100%;
+}
+
+/************************************/
+/*! Web Services */
+/************************************/
+
+
+#web-design {
+	margin-top: 50px;
+	width: 200px;
+	float: left;
+	margin-left: 15px;
+}
+
+.service {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	color: #ff6528;
+	font-size: 20px;
+	margin-top: 15px;
+	width: 210px;
+}
+
+.description {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	margin-top: -10px;
+}
+
+#web-development {
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 200px;
+	float: left;
+}
+
+#social-media {
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 200px;
+	float: left;
+}
+
+#web-hosting {
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 200px;
+	float: right;
+}
+
+#domain-names {
+	margin-top: 30px;
+	margin-left: 15px;
+	width: 200px;
+	float: left;
+	clear: both;
+}
+
+#seo {
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 200px;
+	float: left;
+}
+
+#interface-design {
+	margin-top: 30px;
+	margin-left: 40px;
+	width: 200px;
+	float: left;
+}
+
+#graphic-design {
+	margin-top: 30px;
+	margin-left: 60px;
+	width: 200px;
+	float: left;
+}
+
+
+/************************************/
+/*! Clients */
+/************************************/
+
+.fade {
+	
+}
+
+
+/************************************/
+/*! About Us */
+/************************************/
+
+#about {
+	width: 100%;
+	height: 500px;
+	background-color: #3c4451;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+	float: left;
+	margin-top: 150px;
+	padding-top: 70px;
+	cursor: default;
+}
+
+.title2 {
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;	
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+.subtext2 {
+	margin-top: 50px;
+	width: 650px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+#client {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	width: 1000px;
+	height: 60%;
+}
+
+.alpha {
+	float: left;
+	padding-left: 5%;
+	cursor: default;	
+}
+
+.luxury {
+	float: left;
+	padding-left: 5%;
+	cursor: default;
+}
+
+.nippers {
+	float: left;
+	padding-left: 5%;
+	cursor: default;	
+}
+
+.blood {
+	float: left;
+	padding-left: 5%;
+	cursor: default;		
+}
+
+/************************************/
+/*! My Work */
+/************************************/
+
+
+#work {
+	width: 960px;
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 60px;
+	cursor: default;	
+}
+
+/************************************/
+/*! Contact Me */
+/************************************/
+
+#contact {
+	width: 100%;
+	height: 550px;
+	background-image: url(../images/background3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto;
+	float: left;
+	margin-top: 80px;
+	padding-top: 70px;
+	cursor: default;
+}
+
+.email {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-weight: 300;
+	padding-bottom: 5px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	text-align: center;
+	font-size: 40px;
+	width: 40%;
+	height: 10%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.email-cover {
+	text-decoration: none;
+}
+
+.email-cover :hover {
+	color: white;
+	background-color: #ff6528;
+	border-radius: 4px;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;	
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;	
+}
+
+
+/************************************/
+/*! Contact Form */
+/************************************/
+
+form {
+	width: 960px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+input, textarea {
+	padding: 10px;
+	border: 1px solid #2d3544;
+	width: 500px;
+	border-radius: 3px;
+	color: #999999;
+	box-shadow: none;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;	
+}
+
+textarea {
+	max-width: 500px;
+	max-height: 300px;
+	height: 300px;
+	line-height: 18px;	
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+}
+
+
+.submit input {
+	width: 100px;
+	background-color: #ff6528;
+	color: white;
+	border: none;
+}
+
+.submit input:hover {
+	background-color: #ff5a19;
+	cursor: pointer;
+}
+
+
+/************************************/
+/*! Social Links */
+/************************************/
+
+.title2-social {
+	margin-top: 0px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	color: white;	
+}
+
+#social {
+	width: 400px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: black;
+}
+
+.twitter {
+	float: left;
+	
+}
+
+.twitter:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);	
+}
+
+.facebook {
+	float: left;
+}
+
+.facebook:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);	
+}
+
+.linkedin {
+	float: left;
+}
+
+.linkedin:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);	
+}
+
+.behance {
+	float: left;
+}
+
+.behance:hover {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);	
+}
+
+.button {
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #ff5a19;
+	border-radius: 5px;
+	color: white;
+	margin-top: 50px;
+}
+
+.button p {
+	padding-top: 18px;	
+}
+
+.button a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
